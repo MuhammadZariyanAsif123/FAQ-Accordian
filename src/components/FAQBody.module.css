@@ -1,0 +1,58 @@
+.container{
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-top:150px;
+}
+
+.header
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left:20px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.header::before
+{
+    content: url('/src/images/icon-star.svg');
+
+}
+
+.subHeading
+{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+.FAQlist
+{
+    list-style: none;
+    font-weight: bold;
+    font-size:12px;
+}
+
+ul li:hover
+{
+    color:purple;
+    cursor: pointer;
+}
+
+
+
+p{
+    max-width: 450px;
+    font-size: 12px;
+    color:gray;
+    padding-left: 30px;
+}
+
